@@ -5,7 +5,7 @@ This project created on 27th May 2019
 Scott's Bikeshare Python Project
 
 ### Description
-Describe what your project is about and what it does
+This project allows the user to interrogate information on a bikeshare service in three US cities, displaying statistics at a total or filtered level, and also allows the user to interrogate the raw data held.
 
 ### Files used
 Include the files used
