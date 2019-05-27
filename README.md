@@ -11,7 +11,9 @@ This project allows the user to interrogate information on a bikeshare service i
 bikeshare.py - code file
 washington.csv - data file
 chicago.csv - data file
-new_york_city.csv - data file 
+new_york_city.csv - data file
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+The method to remove the additional information in the value_counts data so it prints out in a nicer format was adapted from the code here:
+
+https://stackoverflow.com/questions/40278845/suppress-name-dtype-from-python-pandas-describe
