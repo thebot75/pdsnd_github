@@ -154,7 +154,9 @@ def time_stats(df):
     if popular_hour < 13:
         print('The most common hour for starting a journey is {}AM.'.format(popular_hour))
     else:
-        print('The most common hour for starting a journey is ' + str(popular_hour - 12) + "PM.")
+        pm_hour = popular_hour - 12
+        print('The most common hour for starting a journey is {}PM.'.format(pm_hour))
+
     #this section just converts the raw hour format into something a bit more readable for the user
 
     print("\nThis took %s seconds." % (time.time() - start_time))
